@@ -207,8 +207,8 @@ h1 {
   margin-top: 20px;
   cursor: pointer;
 }
-.content__button:hover{
-   background-color: #15b2f59a;
+.content__button:hover {
+  background-color: #15b2f59a;
 }
 .btn {
   border: none;
@@ -329,8 +329,8 @@ h1 {
   cursor: pointer;
 }
 
-.services__button .service__btn:hover{
-background-color: #074a66c6;
+.services__button .service__btn:hover {
+  background-color: #074a66c6;
 }
 
 .services__image {
@@ -416,7 +416,7 @@ background-color: #074a66c6;
 /* -----Black Friday Sale Section Styling----- */
 
 .black__friday__sale .container {
-  background: url(img/d0757d6dfb5a90f3a5e805ffa2c459591af764cd.jpg);
+  background: url(img/sales.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -446,7 +446,7 @@ background-color: #074a66c6;
 /* -----Trends Section Styling----- */
 
 .trends__title {
-  background-image: url(img/Rectangle\ 2.png);
+  background-image: url(img/Rectangle2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -529,24 +529,22 @@ background-color: #074a66c6;
   text-transform: uppercase;
   font-family: Gotham;
   display: inline-block;
-   transition: 0.6s;
+  transition: 0.6s;
   position: relative;
-  
 }
 .categories__details a::after {
   content: " ";
   position: absolute;
   height: 3px;
-  width:0;
+  width: 0;
   top: 25px;
   left: 0;
   background-color: #fff;
   transition: 0.3s ease;
 }
-.categories__details a:hover::after{
+.categories__details a:hover::after {
   width: 100%;
 }
-
 
 /* -----Footer Styling----- */
 
@@ -613,7 +611,6 @@ footer {
 }
 
 /*-----Media_Querries-----*/
-
 
 /*-----Laptop Screen Sizing----- */
 @media screen and (max-width: 1024px) {
@@ -689,7 +686,6 @@ footer {
     order: 2;
   }
 }
-
 
 /* Tablet & Mobile Screen Sizing */
 @media screen and (max-width: 768px) {
@@ -813,6 +809,7 @@ footer {
   /* Services Styling */
   #services__section {
     padding-inline: 22px;
+    padding-top: 5rem;
   }
 
   .services {
@@ -939,11 +936,10 @@ footer {
 
   /* Footer Styling */
 
-  
   footer {
-   background: #110504;
-   padding: 3rem 1rem;
-   margin-top: 60px;
+    background: #110504;
+    padding: 3rem 1rem;
+    margin-top: 60px;
   }
   .footer__column {
     flex-direction: column;
