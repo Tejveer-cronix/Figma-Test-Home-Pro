@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Pro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/Mark (1).svg"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <div class="small__container nav">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/Mark (1).svg" alt="nav logo" />
+            Home Pro
+          </a>
+        </div>
+
+        <nav class="navbar">
+          <ul class="nav__list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#services__section">Services</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav__right">
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+            >
+              <circle cx="6" cy="6" r="6" fill="#FF5E5E" />
+            </svg>
+          </span>
+          <p>24 Hour Services</p>
+        </div>
+
+        <!-- Humburger Menu -->
+        <div id="toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="24"
+            viewBox="0 0 25 24"
+            fill="none"
+          >
+            <path
+              d="M3.26367 12H21.2637"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M3.26367 6H21.2637"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M3.26367 18H21.2637"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero__section" id="hero">
+      <div class="container hero">
+        <div class="hero__img hero__img--left">
+          <img src="img/hero img left.png" alt="hero left img" />
+        </div>
+
+        <div class="hero__content">
+          <div class="small__text">
+            <ul class="small__text--list">
+              <li>Maintenances</li>
+              <li>Repairs</li>
+              <li>Improvements</li>
+            </ul>
+          </div>
+          <h1>Need improvement or repair your home? we can help!</h1>
+
+          <div class="hero__info">
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="24"
+                viewBox="0 0 25    24"
+                fill="none"
+              >
+                <path
+                  d="M20.5 6L9.5 17L4.5 12"
+                  stroke="#15B2F5"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p>Free Quotes</p>
+            </span>
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="24"
+                viewBox="0 0 25    24"
+                fill="none"
+              >
+                <path
+                  d="M20.5 6L9.5 17L4.5 12"
+                  stroke="#15B2F5"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p>100% Commitment-Free</p>
+            </span>
+          </div>
+          <div class="content__button">
+            <button type="submit" class="btn">Call Us Now</button>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                class="call__icon"
+              >
+                <path
+                  d="M22.4999 16.9199V19.9199C22.5011 20.1984 22.444 20.474 22.3325 20.7292C22.2209 20.9844 22.0572 21.2134 21.852 21.4017C21.6468 21.59 21.4045 21.7333 21.1407 21.8226C20.8769 21.9118 20.5973 21.9449 20.3199 21.9199C17.2428 21.5855 14.2869 20.534 11.6899 18.8499C9.27376 17.3145 7.22527 15.266 5.68993 12.8499C3.99991 10.2411 2.94818 7.27085 2.61993 4.17985C2.59494 3.90332 2.62781 3.62461 2.71643 3.36148C2.80506 3.09834 2.9475 2.85654 3.1347 2.65147C3.32189 2.44641 3.54974 2.28256 3.80372 2.17037C4.05771 2.05819 4.33227 2.00011 4.60993 1.99985H7.60994C8.09524 1.99508 8.56573 2.16693 8.9337 2.48339C9.30167 2.79984 9.54201 3.2393 9.60994 3.71985C9.73656 4.67992 9.97139 5.62258 10.3099 6.52985C10.4445 6.88778 10.4736 7.27677 10.3938 7.65073C10.3141 8.0247 10.1288 8.36796 9.85994 8.63985L8.58994 9.90985C10.0135 12.4134 12.0864 14.4863 14.5899 15.9099L15.8599 14.6399C16.1318 14.371 16.4751 14.1857 16.8491 14.1059C17.223 14.0262 17.612 14.0553 17.9699 14.1899C18.8772 14.5284 19.8199 14.7632 20.7799 14.8899C21.2657 14.9584 21.7093 15.2031 22.0265 15.5773C22.3436 15.9516 22.5121 16.4294 22.4999 16.9199Z"
+                  fill="#15B2F5"
+                />
+              </svg>
+            </span>
+          </div>
+          <div class="hero__feature">
+            <div class="feature">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M10.5752 2.94625C11.3586 2.15104 12.6414 2.15104 13.4248 2.94625L14.4681 4.00535C14.8477 4.39062 15.367 4.60576 15.9078 4.60171L17.3945 4.59058C18.5108 4.58222 19.4178 5.48924 19.4094 6.60549L19.3983 8.09215C19.3942 8.63295 19.6094 9.15234 19.9947 9.53188L21.0537 10.5752C21.849 11.3586 21.849 12.6414 21.0537 13.4248L19.9947 14.4681C19.6094 14.8477 19.3942 15.367 19.3983 15.9078L19.4094 17.3945C19.4178 18.5108 18.5108 19.4178 17.3945 19.4094L15.9078 19.3983C15.367 19.3942 14.8477 19.6094 14.4681 19.9947L13.4248 21.0537C12.6414 21.849 11.3586 21.849 10.5752 21.0537L9.53188 19.9947C9.15234 19.6094 8.63295 19.3942 8.09215 19.3983L6.60549 19.4094C5.48924 19.4178 4.58222 18.5108 4.59058 17.3945L4.60171 15.9078C4.60576 15.367 4.39062 14.8477 4.00535 14.4681L2.94625 13.4248C2.15104 12.6414 2.15104 11.3586 2.94625 10.5752L4.00535 9.53188C4.39062 9.15234 4.60576 8.63295 4.60171 8.09215L4.59058 6.60549C4.58222 5.48924 5.48924 4.58222 6.60549 4.59058L8.09215 4.60171C8.63295 4.60576 9.15234 4.39062 9.53188 4.00535L10.5752 2.94625Z"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M16 10L11.625 14L9 12.1176"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p>Satisfaction Guarantee</p>
+            </div>
+
+            <div class="feature">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 6V12L16 14"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p>24H Availability</p>
+            </div>
+
+            <div class="feature">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M21 10C21 15.1225 16.1804 19.7095 13.595 21.8016C12.6535 22.5634 11.3464 22.5634 10.405 21.8016C7.81961 19.7095 3 15.1225 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p>Local US Professional</p>
+            </div>
+
+            <div class="feature">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 14L11.875 18L10 16.1176"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 2V6"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 2V6"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 10H21"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p>Flexible Appointments</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__img hero__img-right">
+          <img src="img/hero img right.png" alt="Hero Right image" />
+        </div>
+      </div>
+      <div class="docartaion__svg">
+        <!-- Left SVG -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="479"
+          height="45"
+          viewBox="0 0 479 45"
+          fill="none"
+        >
+          <path
+            d="M433.92 5.87463C429.555 2.086 423.969 1.52588e-05 418.189 1.52588e-05H-2.5V45H479L433.92 5.87463Z"
+            fill="white"
+          />
+        </svg>
+        <!--Right SVG  -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="484"
+          height="45"
+          viewBox="0 0 484 45"
+          fill="none"
+        >
+          <path
+            d="M45.0801 5.87452C49.4453 2.0859 55.0312 -8.71801e-05 60.8113 -8.66748e-05L485 -4.57764e-05L485 44.9999L0 44.9999L45.0801 5.87452Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- Services section -->
+
+    <section class="services__section" id="services__section">
+      <div class="small__container services">
+        <div class="services__content">
+          <h2>Professional for your home services</h2>
+          <p>
+            You need help for home care? We are home care professionals focused
+            in the US region. We provide several services that support home
+            services
+          </p>
+
+          <div class="services__list">
+            <div class="services__list_one">
+              <ul class="services__item">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.3334 1L5.00002 8.33333L1.66669 5"
+                      stroke="#1F3584"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Repair and Installation</span>
+                </li>
+
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.3334 1L5.00002 8.33333L1.66669 5"
+                      stroke="#1F3584"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Maintenance</span>
+                </li>
+
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.3334 1L5.00002 8.33333L1.66669 5"
+                      stroke="#1F3584"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Home Security Services</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="services__list_two">
+              <ul class="services__item">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.3334 1L5.00002 8.33333L1.66669 5"
+                      stroke="#1F3584"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Plumbing</span>
+                </li>
+
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.3334 1L5.00002 8.33333L1.66669 5"
+                      stroke="#1F3584"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Budget-friendly</span>
+                </li>
+
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.3334 1L5.00002 8.33333L1.66669 5"
+                      stroke="#1F3584"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Eco-friendly solutions</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="services__button">
+            <button type="submit" class="service__btn">
+              We already 24 hours fast services to help you. You can contact us
+              at <b>(888) 617-5894</b>
+            </button>
+          </div>
+        </div>
+
+        <div class="services__image">
+          <img src="img/section.png" alt="Services section right img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products__section" class="products__section">
+      <div class="product__flex container">
+        <!-- Product card-1 -->
+        <div class="product__card">
+          <div class="product__image">
+            <p>Value Set</p>
+            <img src="img/product.png" alt="Ultra Ribbed Condom image" />
+          </div>
+          <div class="product__text">
+            <div class="product__title">
+              <h3>Ultra Ribbed Condom</h3>
+              <p>$ 12.99</p>
+            </div>
+          </div>
+          <div class="product__desc">
+            Silicon-based lubrication, Natural Latex
+          </div>
+        </div>
+
+        <!-- Product card-2 -->
+        <div class="product__card">
+          <div class="product__image">
+            <p>Value Set</p>
+            <img src="img/product.png" alt="Ultra Ribbed Condom image" />
+          </div>
+          <div class="product__text">
+            <div class="product__title">
+              <h3>Ultra Ribbed Condom</h3>
+              <p>$ 12.99</p>
+            </div>
+          </div>
+          <div class="product__desc">
+            Silicon-based lubrication, Natural Latex
+          </div>
+        </div>
+
+        <!-- Product card-3 -->
+        <div class="product__card">
+          <div class="product__image">
+            <p>Value Set</p>
+            <img src="img/product.png" alt="Ultra Ribbed Condom image" />
+          </div>
+          <div class="product__text">
+            <div class="product__title">
+              <h3>Ultra Ribbed Condom</h3>
+              <p>$ 12.99</p>
+            </div>
+          </div>
+          <div class="product__desc">
+            Silicon-based lubrication, Natural Latex
+          </div>
+        </div>
+
+        <!-- Product card-4 -->
+        <div class="product__card">
+          <div class="product__image">
+            <p>Value Set</p>
+            <img src="img/product.png" alt="Ultra Ribbed Condom image" />
+          </div>
+          <div class="product__text">
+            <div class="product__title">
+              <h3>Ultra Ribbed Condom</h3>
+              <p>$ 12.99</p>
+            </div>
+          </div>
+          <div class="product__desc">
+            Silicon-based lubrication, Natural Latex
+          </div>
+        </div>
+
+        <!-- Product card-5 -->
+        <div class="product__card">
+          <div class="product__image">
+            <p>Value Set</p>
+            <img src="img/product.png" alt="Ultra Ribbed Condom image" />
+          </div>
+          <div class="product__text">
+            <div class="product__title">
+              <h3>Ultra Ribbed Condom</h3>
+              <p>$ 12.99</p>
+            </div>
+          </div>
+          <div class="product__desc">
+            Silicon-based lubrication, Natural Latex
+          </div>
+        </div>
+      </div>
+
+      <!-- Black Friday sale  -->
+
+      <div class="black__friday__sale">
+        <div class="container">
+         <h3>Black Friday Sale</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Ut semper consequat eget
+            eros.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trends Section  -->
+
+    <section id="trends__section" class="trends__section">
+      <div class="container trends">
+        <div class="trends__title">
+          <span>Discover the best</span>
+          <span><strong>fashion</strong> trends</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories__section" class="categories__section">
+      <div class="container categories">
+        <div class="categories__one">
+          <div class="categories__image">
+            <img src="img/frame-1.png" alt="Bagpacks left side image" />
+            <div class="categories__details">
+              <h3>Backpacks</h3>
+              <p>New styles and colors.</p>
+              <a href="#">shop now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories__one">
+          <div class="categories__image">
+            <img src="img/Rectangle 51.png" alt="Jacket right side image" />
+            <div class="categories__details">
+              <h3>Canada Goose</h3>
+              <p>Explore new styles for Winter.</p>
+              <a href="#">shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class=" small__container footer__content ">
+        <div class="footer__column">
+          <div class="footer__col">
+            <h4>shop</h4>
+            <ul>
+              <li><a href="#">Gift & Sets</a></li>
+              <li><a href="#">Shop All</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Refund & Return Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Fama Innovation</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__language">
+            <div class="flag__image">
+              <img src="img/Flags.png" alt="Flag Image" />
+              <p>English | $united States(USD)</p>
+            </div>
+            <div class="footer__social">
+              <a href="https://www.facebook.com/"
+                 target="blank"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2_2701)">
+                    <path
+                      d="M26 13C26 5.82029 20.1797 0 13 0C5.82029 0 0 5.82029 0 13C0 19.4886 4.75389 24.8668 10.9688 25.8421V16.7578H7.66797V13H10.9688V10.1359C10.9688 6.87781 12.9096 5.07812 15.879 5.07812C17.3009 5.07812 18.7891 5.33203 18.7891 5.33203V8.53125H17.1498C15.535 8.53125 15.0313 9.53342 15.0313 10.5625V13H18.6367L18.0604 16.7578H15.0313V25.8421C21.2461 24.8668 26 19.4886 26 13Z"
+                      fill="#F1F0ED"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2_2701">
+                      <rect width="26" height="26" fill="white" />
+                    </clipPath>
+                  </defs></svg
+              ></a>
+
+              <a href="https://www.instagram.com/"
+                target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                >
+                  <path
+                    d="M13 2.34102C16.4734 2.34102 16.8848 2.35625 18.2508 2.41719C19.5203 2.47305 20.2059 2.68633 20.6629 2.86406C21.2672 3.09766 21.7039 3.38203 22.1559 3.83398C22.6129 4.29102 22.8922 4.72266 23.1258 5.32695C23.3035 5.78398 23.5168 6.47461 23.5727 7.73906C23.6336 9.11016 23.6488 9.52149 23.6488 12.9898C23.6488 16.4633 23.6336 16.8746 23.5727 18.2406C23.5168 19.5102 23.3035 20.1957 23.1258 20.6527C22.8922 21.257 22.6078 21.6938 22.1559 22.1457C21.6988 22.6027 21.2672 22.882 20.6629 23.1156C20.2059 23.2934 19.5152 23.5066 18.2508 23.5625C16.8797 23.6234 16.4684 23.6387 13 23.6387C9.52656 23.6387 9.11524 23.6234 7.74922 23.5625C6.47969 23.5066 5.79414 23.2934 5.33711 23.1156C4.73281 22.882 4.29609 22.5977 3.84414 22.1457C3.38711 21.6887 3.10781 21.257 2.87422 20.6527C2.69648 20.1957 2.4832 19.5051 2.42734 18.2406C2.36641 16.8695 2.35117 16.4582 2.35117 12.9898C2.35117 9.51641 2.36641 9.10508 2.42734 7.73906C2.4832 6.46953 2.69648 5.78398 2.87422 5.32695C3.10781 4.72266 3.39219 4.28594 3.84414 3.83398C4.30117 3.37695 4.73281 3.09766 5.33711 2.86406C5.79414 2.68633 6.48477 2.47305 7.74922 2.41719C9.11524 2.35625 9.52656 2.34102 13 2.34102ZM13 0C9.4707 0 9.02891 0.0152344 7.64258 0.0761719C6.26133 0.137109 5.31172 0.360547 4.48906 0.680469C3.63086 1.01562 2.90469 1.45742 2.18359 2.18359C1.45742 2.90469 1.01563 3.63086 0.680469 4.48398C0.360547 5.31172 0.137109 6.25625 0.0761719 7.6375C0.0152344 9.02891 0 9.4707 0 13C0 16.5293 0.0152344 16.9711 0.0761719 18.3574C0.137109 19.7387 0.360547 20.6883 0.680469 21.5109C1.01563 22.3691 1.45742 23.0953 2.18359 23.8164C2.90469 24.5375 3.63086 24.9844 4.48398 25.3145C5.31172 25.6344 6.25625 25.8578 7.6375 25.9188C9.02383 25.9797 9.46563 25.9949 12.9949 25.9949C16.5242 25.9949 16.966 25.9797 18.3523 25.9188C19.7336 25.8578 20.6832 25.6344 21.5059 25.3145C22.359 24.9844 23.0852 24.5375 23.8063 23.8164C24.5273 23.0953 24.9742 22.3691 25.3043 21.516C25.6242 20.6883 25.8477 19.7438 25.9086 18.3625C25.9695 16.9762 25.9848 16.5344 25.9848 13.0051C25.9848 9.47578 25.9695 9.03399 25.9086 7.64766C25.8477 6.26641 25.6242 5.3168 25.3043 4.49414C24.9844 3.63086 24.5426 2.90469 23.8164 2.18359C23.0953 1.4625 22.3691 1.01562 21.516 0.685547C20.6883 0.365625 19.7438 0.142188 18.3625 0.08125C16.9711 0.0152344 16.5293 0 13 0Z"
+                    fill="#F1F0ED"
+                  />
+                  <path
+                    d="M13 6.32227C9.31328 6.32227 6.32227 9.31328 6.32227 13C6.32227 16.6867 9.31328 19.6777 13 19.6777C16.6867 19.6777 19.6777 16.6867 19.6777 13C19.6777 9.31328 16.6867 6.32227 13 6.32227ZM13 17.3316C10.6082 17.3316 8.66836 15.3918 8.66836 13C8.66836 10.6082 10.6082 8.66836 13 8.66836C15.3918 8.66836 17.3316 10.6082 17.3316 13C17.3316 15.3918 15.3918 17.3316 13 17.3316Z"
+                    fill="#F1F0ED"
+                  />
+                  <path
+                    d="M21.5008 6.05801C21.5008 6.92129 20.8 7.617 19.9418 7.617C19.0785 7.617 18.3828 6.91621 18.3828 6.05801C18.3828 5.19473 19.0836 4.49902 19.9418 4.49902C20.8 4.49902 21.5008 5.19981 21.5008 6.05801Z"
+                    fill="#F1F0ED"
+                  /></svg
+              ></a>
+
+              <a href="https://x.com/?lang=en"
+                target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                >
+                  <path
+                    d="M8.17934 23.5623C17.9882 23.5623 23.3548 15.4337 23.3548 8.38683C23.3548 8.15832 23.3497 7.92472 23.3396 7.69621C24.3835 6.94123 25.2845 6.00609 26 4.93472C25.0277 5.3673 23.9954 5.64981 22.9384 5.77261C24.0514 5.10547 24.8847 4.05741 25.284 2.82273C24.2369 3.44325 23.0919 3.88098 21.8979 4.11714C21.0934 3.26234 20.0297 2.69636 18.8713 2.50671C17.7129 2.31705 16.5243 2.51429 15.4892 3.06792C14.4541 3.62155 13.6303 4.50075 13.145 5.56957C12.6597 6.63839 12.54 7.83732 12.8045 8.98097C10.6844 8.87458 8.61026 8.32383 6.71665 7.36442C4.82303 6.40502 3.15217 5.05837 1.81238 3.41179C1.13143 4.58583 0.923061 5.9751 1.22962 7.29725C1.53617 8.6194 2.33465 9.77522 3.46277 10.5298C2.61585 10.5029 1.78747 10.2749 1.04609 9.86457V9.93058C1.04534 11.1626 1.47127 12.357 2.2515 13.3105C3.03173 14.264 4.1181 14.9179 5.32594 15.1611C4.54139 15.3757 3.71798 15.407 2.91941 15.2525C3.26024 16.312 3.92337 17.2388 4.81625 17.9033C5.70913 18.5679 6.78721 18.9371 7.90004 18.9595C6.01079 20.4435 3.67702 21.2485 1.27461 21.2446C0.848561 21.244 0.422932 21.2179 0 21.1664C2.44059 22.7322 5.27966 23.5638 8.17934 23.5623Z"
+                    fill="#F1F0ED"
+                  /></svg
+              ></a>
+
+              <a href="https://www.youtube.com/"
+                target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="23"
+                  height="23"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.2988 0.100098C17.3699 0.100098 22.2988 5.02904 22.2988 11.1001C22.2988 17.1712 17.3699 22.1001 11.2988 22.1001C5.22777 22.1001 0.298828 17.1712 0.298828 11.1001C0.298828 5.02904 5.22777 0.100098 11.2988 0.100098ZM17.8866 7.79056C17.7285 7.19892 17.2626 6.7331 16.671 6.57497C15.5986 6.2876 11.2988 6.2876 11.2988 6.2876C11.2988 6.2876 6.99907 6.2876 5.92666 6.57497C5.3352 6.7331 4.8692 7.19892 4.71107 7.79056C4.42383 8.86284 4.42383 11.1002 4.42383 11.1002C4.42383 11.1002 4.42383 13.3374 4.71107 14.4096C4.8692 15.0013 5.3352 15.4673 5.92666 15.6254C6.99907 15.9126 11.2988 15.9126 11.2988 15.9126C11.2988 15.9126 15.5986 15.9126 16.671 15.6254C17.2626 15.4673 17.7285 15.0013 17.8866 14.4096C18.1738 13.3374 18.1738 11.1002 18.1738 11.1002C18.1738 11.1002 18.1738 8.86284 17.8866 7.79056ZM9.92379 13.1627V9.03764L13.4961 11.1002L9.92379 13.1627Z"
+                    fill="#F1F0ED"
+                  /></svg
+              ></a>
+
+              <a href="https://www.tiktok.com/about?lang=en"
+                target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                >
+                  <path
+                    d="M18.4954 0H14.1136V17.7101C14.1136 19.8203 12.4284 21.5536 10.3311 21.5536C8.23389 21.5536 6.5486 19.8203 6.5486 17.7101C6.5486 15.6377 8.19644 13.942 10.2188 13.8667V9.42031C5.76213 9.49563 2.16685 13.1507 2.16685 17.7101C2.16685 22.3073 5.83703 26 10.3686 26C14.9001 26 18.5703 22.2696 18.5703 17.7101V8.62897C20.2181 9.83479 22.2405 10.5507 24.3752 10.5884V6.14203C21.0795 6.02899 18.4954 3.31594 18.4954 0Z"
+                    fill="#F1F0ED"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Linking JS  -->
+    <script src="script.js"></script>
+  </body>
+</html>
