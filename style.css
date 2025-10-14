@@ -69,10 +69,11 @@ li {
   padding: 20px 0;
 }
 
-.logo a {
+.logo h1 a {
   display: flex;
   align-items: center;
   gap: 8px;
+  line-height: 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
