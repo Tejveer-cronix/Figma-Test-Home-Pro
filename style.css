@@ -168,7 +168,7 @@ li {
   margin-left: 12px;
 }
 
-h1 {
+h2 {
   font-size: 64px;
   font-style: normal;
   font-weight: 800;
@@ -185,16 +185,18 @@ h1 {
   gap: 41px;
   margin: 20px 0;
 }
-.hero__info span {
+.hero__info p {
   display: flex;
   align-items: center;
+  
 }
-.hero__info p {
+.hero__info span{
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
   color: #15b2f5;
+ 
 }
 
 .content__button {
@@ -288,6 +290,8 @@ h1 {
   font-style: normal;
   font-weight: 700;
   padding-top: 32px;
+  color: #171921;
+  text-align: justify;
 }
 
 .services p {
@@ -743,14 +747,14 @@ footer {
     line-height: 20px;
   }
 
-  h1 {
+  h2 {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
     width: 100%;
   }
-  .hero__info p {
+  .hero__info span {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
